@@ -1,8 +1,24 @@
 {
+  "name": "lockwallpaper",
+  "version": "0.1.1",
+  "description": "get win10 default lockwallpaper",
+  "main": "bld/main.js",
+  "types": "bld/main.d.ts",
+  "repository": "git@github.com:boenfu/lockwallpaper.git",
+  "author": "boenfu <1997@boenfu.cn>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "bld"
+  ],
+  "bin": {
+    "lwp": "bld/main.js"
+  },
   "devDependencies": {
-    "@types/node": "^9.6.0"
+    "@types/node": "^14.0.14",
+    "typescript": "^3.9.6"
   },
   "dependencies": {
-    "image-size": "^0.6.2"
+    "image-size": "^0.8.3"
   }
 }
