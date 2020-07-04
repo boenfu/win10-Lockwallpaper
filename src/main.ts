@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import FS from "fs";
 import OS from "os";
 import PATH from "path";
