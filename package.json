@@ -1,6 +1,6 @@
 {
   "name": "lockwallpaper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "get win10 default lockwallpaper",
   "main": "bld/main.js",
   "types": "bld/main.d.ts",
